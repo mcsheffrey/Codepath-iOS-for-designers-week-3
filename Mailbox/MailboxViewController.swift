@@ -135,6 +135,7 @@ class MailboxViewController: UIViewController {
                 listIconImageView.center = CGPoint(x: listOriginalCenter.x + translation.x + 50, y: listOriginalCenter.y)
                 laterImageView.alpha = 0
                 listIconImageView.alpha = 1
+                deleteImageView.alpha = 0
                 showReschduleModal = false
                 showListModal = true
             }
